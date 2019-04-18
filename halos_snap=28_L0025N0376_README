@@ -1,0 +1,20 @@
+#OK
+#SQL=      	select sub.GalaxyID as Galaxy_ID, sub.Mass as sub_Mass_Total, sub.MassType_Star as sub_Mass_Star, sub.StarFormationRate as sub_SFR, sub.CentreOfMass_x as sub_gcom_x, sub.CentreOfMass_y as sub_gcom_y, sub.CentreOfMass_z as sub_gcom_z, fof.Group_R_Crit200 as fof_critR200, sub.HalfMassRad_Star as sub_hmr_Star,  fof.SnapNum as fof_snap 
+#			
+#		from RefL0025N0376_Aperture as ap, RefL0025N0376_FOF as fof, RefL0025N0376_SubHalo as sub 
+#						  
+#	where ap.GalaxyID = sub.GalaxyID and sub.GroupID = FOF.GroupID and fof.SnapNum = 28
+#MAXROWS UNLIMITED
+#QUERYTIMEOUT 1800 sec
+#QUERYTIME 469 millisec
+#COLUMN 1 name=Galaxy_ID JDBC_TYPE=-5 JDBC_TYPENAME=bigint
+#COLUMN 2 name=sub_Mass_Total JDBC_TYPE=7 JDBC_TYPENAME=real
+#COLUMN 3 name=sub_Mass_Star JDBC_TYPE=7 JDBC_TYPENAME=real
+#COLUMN 4 name=sub_SFR JDBC_TYPE=7 JDBC_TYPENAME=real
+#COLUMN 5 name=sub_gcom_x JDBC_TYPE=7 JDBC_TYPENAME=real
+#COLUMN 6 name=sub_gcom_y JDBC_TYPE=7 JDBC_TYPENAME=real
+#COLUMN 7 name=sub_gcom_z JDBC_TYPE=7 JDBC_TYPENAME=real
+#COLUMN 8 name=fof_critR200 JDBC_TYPE=7 JDBC_TYPENAME=real
+#COLUMN 9 name=sub_hmr_Star JDBC_TYPE=7 JDBC_TYPENAME=real
+#COLUMN 10 name=fof_snap JDBC_TYPE=4 JDBC_TYPENAME=int
+Galaxy_ID,sub_Mass_Total,sub_Mass_Star,sub_SFR,sub_gcom_x,sub_gcom_y,sub_gcom_z,fof_critR200,sub_hmr_Star,fof_snap
