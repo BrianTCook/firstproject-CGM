@@ -18,3 +18,5 @@ There is an existing script (written by Nastasha Wijers) that reads in the EAGLE
 5.) finds statistics for all of the galaxies being analyzed at each impact parameter (e.g., what is the 75th percentile for H I       column density at r = 0.6 R_{vir} for star-forming galaxies with stellar mass 8.5 < log(M_{star}/M_{sun}) < 9?)
 
 Another capability of impactparameter_script.py and outputsfromslices.py is computing the covering fraction, which determines which percentage of pixels at a particular impact parameter exceed an imposed threshold value (which is usually determined from observational constraints).
+
+The specwizard_brian_manygalaxies.py script computes the composite flux and optical depth as a function of galaxy frame Hubble velocity for all of the galaxies within a particular class. The HDF5 file from which the fluxes and optical depths are analyzed was computed using the SpecWizard software suite developed by Joop Schaye and others.
